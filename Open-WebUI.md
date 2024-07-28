@@ -58,7 +58,39 @@ Want to learn more about Open WebUI's features? Check out our [Open WebUI docume
 
 ### Installation
 
-#### Quick Start with Docker (Recommended)
+### Method 1: Installing Open WebUI
+
+Follow these steps to install and run Open WebUI:
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/open-webui/open-webui.git
+   cd open-webui
+   ```
+
+2. **Install Dependencies:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the Application:**
+
+   ```bash
+   python app.py
+   ```
+
+4. **Access the Web Interface:**
+
+   Open your web browser and go to [http://localhost:5000](http://localhost:5000) to interact with the Open WebUI interface.
+
+---
+
+This format makes each step clear and easy to follow.
+
+
+### Method 2:  Installation with Docker (Recommended)
 
 **Single-User Mode:** To disable login for a single-user setup, set `WEBUI_AUTH` to `False`. This will bypass the login page. Note that you cannot switch between single-user mode and multi-account mode after this change.
 
@@ -106,9 +138,7 @@ After installation, access Open WebUI at `http://localhost:3000`.
 docker run -d -p 3000:8080 -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:dev
 ```
 
-### Manual Installation
-
-#### Installation with pip (Beta)
+### Method 3:  Installation with pip (Beta)
 
 **Python 3.11 is required.**
 
