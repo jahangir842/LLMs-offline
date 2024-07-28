@@ -9,6 +9,9 @@ Open WebUI is an extensible, feature-rich, and user-friendly self-hosted WebUI d
 
 **Github page:** https://github.com/open-webui/open-webui
 
+### Video Guide: 
+https://www.youtube.com/watch?v=QHuTBksNt_w
+
 ### Installation
 
 #### Quick Start with Docker (Recommended)
