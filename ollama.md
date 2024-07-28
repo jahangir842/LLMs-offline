@@ -22,3 +22,7 @@ Run the required llama model (e.g llama2 or llama3) with following command:
 `
 ollama run llama3
 `
+It will start downloading the required model.
+## ollama supported models:
+https://ollama.com/library
+
