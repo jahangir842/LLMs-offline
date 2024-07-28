@@ -8,9 +8,15 @@ Ollama is an open-source project that serves as a powerful and user-friendly pla
 
 At its core, Ollama simplifies the process of downloading, installing, and interacting with a wide range of LLMs, empowering users to explore their capabilities without the need for extensive technical expertise or reliance on cloud-based platforms.
 
-## ollama-installation
+## ollama-installation with Windows Installer
 
 https://www.youtube.com/watch?v=Lxb_cgLkOHU
+## Summary:
+Install on windows with installer and interact with:
+1. Command line
+2. Web API On http://localhost:11434
+
+
 
 
 ## Run ollama with Open WebUI
