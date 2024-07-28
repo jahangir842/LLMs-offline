@@ -4,6 +4,12 @@
 
 Oobabooga is a powerful web-based user interface designed for running large language models (LLMs) such as GPT-3 and similar models. It provides an interactive and user-friendly platform for accessing and utilizing these models, either locally or through various APIs.
 
+#### Repository 
+
+https://github.com/oobabooga/text-generation-webui
+
+
+
 #### Key Features
 
 - **User Interface**: Provides a clean and intuitive web-based interface for interacting with LLMs.
@@ -14,7 +20,9 @@ Oobabooga is a powerful web-based user interface designed for running large lang
 
 #### Installation
 
-##### Quick Start with Docker (Recommended)
+
+
+##### Method 1: Quick Start with Docker (Recommended)
 
 **Single-User Mode**:
 To disable login for a single-user setup, set `WEBUI_AUTH` to `False`. This will bypass the login page. Note that you cannot switch between single-user mode and multi-account mode after this change.
@@ -65,9 +73,7 @@ After installation, access Oobabooga at `http://localhost:3000`.
 docker run -d -p 3000:8080 -v oobabooga:/app/backend/data --name oobabooga --restart always ghcr.io/oobabooga/oobabooga:dev
 ```
 
-#### Manual Installation
-
-##### Installation with pip (Beta)
+# Method 2: Installation with pip (Beta)
 
 **Python 3.11 is required.**
 
@@ -82,6 +88,7 @@ docker run -d -p 3000:8080 -v oobabooga:/app/backend/data --name oobabooga --res
    ```
 
 Access Oobabooga at `http://localhost:8080`.
+
 
 #### Other Installation Methods
 
