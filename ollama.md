@@ -8,15 +8,17 @@ Ollama is an open-source project that serves as a powerful and user-friendly pla
 
 At its core, Ollama simplifies the process of downloading, installing, and interacting with a wide range of LLMs, empowering users to explore their capabilities without the need for extensive technical expertise or reliance on cloud-based platforms.
 
-## ollama-installation with Windows Installer
+# Installation methods:
+
+## Method 1: ollama-installation with Windows Installer
 
 https://www.youtube.com/watch?v=Lxb_cgLkOHU
-## Summary:
-Install on windows with installer downloaded from official ollama website and interact with:
+### Summary:
+Download and Install on windows with installer downloaded from official ollama website and interact with:
 1. Command line
 2. Web API On http://localhost:11434
 
-## Run with Commandline:
+## 1. Run with command line:
 Run the required llama model (e.g llama2 or llama3) with following command:
 
 `
@@ -26,3 +28,5 @@ It will start downloading the required model.
 ## ollama supported models:
 https://ollama.com/library
 
+
+## Method 2: ollama-installation on Linux:
