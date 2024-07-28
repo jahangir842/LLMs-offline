@@ -12,10 +12,15 @@ At its core, Ollama simplifies the process of downloading, installing, and inter
 
 https://www.youtube.com/watch?v=Lxb_cgLkOHU
 ## Summary:
-Install on windows with installer and interact with:
+Install on windows with installer downloaded from official ollama website and interact with:
 1. Command line
 2. Web API On http://localhost:11434
 
+## Run with Commandline:
+run the required model follwing command e.g llama2 or llama3:
+`
+ollama run llama3
+`
 
 
 
