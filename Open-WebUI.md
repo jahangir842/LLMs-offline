@@ -9,7 +9,7 @@ Open WebUI is an extensible, feature-rich, and user-friendly self-hosted WebUI d
 
 **Github page:** https://github.com/open-webui/open-webui
 
-**Github page:** https://openwebui.com/models/
+**Model Builder:** https://openwebui.com/models/
 
 ### Video Guide: 
 https://www.youtube.com/watch?v=JMhVLoVyt6A
