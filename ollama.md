@@ -17,12 +17,8 @@ Install on windows with installer downloaded from official ollama website and in
 2. Web API On http://localhost:11434
 
 ## Run with Commandline:
-run the required model follwing command e.g llama2 or llama3:
+Run the required llama model (e.g llama2 or llama3) with following command:
+
 `
 ollama run llama3
 `
-
-
-
-## Run ollama with Open WebUI
-https://www.youtube.com/watch?v=QHuTBksNt_w
