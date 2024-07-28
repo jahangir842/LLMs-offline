@@ -11,6 +11,7 @@ Open WebUI is an extensible, feature-rich, and user-friendly self-hosted WebUI d
 
 ### Video Guide: 
 https://www.youtube.com/watch?v=JMhVLoVyt6A
+
 https://www.youtube.com/watch?v=QHuTBksNt_w
 
 ### Installation
