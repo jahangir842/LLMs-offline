@@ -14,3 +14,4 @@ Developed by contributors from the AI community, including Georgi Gerganov, the 
 Hugging Face Hub supports all file formats, but has built-in features for GGUF format, a binary format that is optimized for quick loading and saving of models, making it highly efficient for inference purposes. GGUF is designed for use with GGML and other executors. GGUF was developed by @ggerganov who is also the developer of llama.cpp, a popular C/C++ LLM inference framework. Models initially developed in frameworks like PyTorch can be converted to GGUF format for use with those engines.
 
 **Download GGUP type model from Hugging Face:** Search the required model name in hugging face, mentioning the word "GGUP" and download it with required quantanization.
+https://huggingface.co/models
