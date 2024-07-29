@@ -11,6 +11,8 @@ At its core, Ollama simplifies the process of downloading, installing, and inter
 
 **ollama supported models** https://ollama.com/library
 
+**oolama docker image** https://hub.docker.com/r/ollama/ollama
+
 **Article** https://medium.com/@1kg/ollama-what-is-ollama-9f73f3eafa8b
 
 # Installation methods:
