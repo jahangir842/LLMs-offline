@@ -3,6 +3,7 @@ Pinokio is a project that simplifies running large language models (LLMs) on you
 Pinokio is a self-contained platform that lets you install apps in an isolated manner.
 
 **Isolated Environment:** no need to worry about messing up your global system configurations and environments
+
 **Batteries Included:** no need to manually install required programs just to install something (such as ffpeg, node.js, visual studio, conda, python, pip, etc.). Pinokio takes care of it automatically.
 
 ### Key Features of Pinokio
