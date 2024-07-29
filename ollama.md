@@ -26,7 +26,8 @@ https://www.youtube.com/watch?v=Wjrdr0NU4Sk
 Download and Install on windows with installer downloaded from official ollama website https://ollama.com/download
 
 **Verify in Browser**
-   Open http://localhost:11434
+
+Open http://localhost:11434
    
 After installation, you can interact with llm with two methods:
 1. Command line
@@ -69,4 +70,5 @@ To install Ollama on Ubuntu, you can follow these steps:
    ollama --version
    ```
 7. **Verify in Browser**
+   
    Open http://localhost:11434
