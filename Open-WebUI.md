@@ -18,6 +18,10 @@ https://www.youtube.com/watch?v=JMhVLoVyt6A
 
 https://www.youtube.com/watch?v=QHuTBksNt_w
 
+https://www.youtube.com/watch?v=Wjrdr0NU4Sk
+
+---
+
 ## Key Features of Open WebUI ⭐
 
 - 🚀 **Effortless Setup**: Install seamlessly using Docker or Kubernetes (kubectl, kustomize or helm) for a hassle-free experience with support for both `:ollama` and `:cuda` tagged images.
@@ -56,11 +60,11 @@ https://www.youtube.com/watch?v=QHuTBksNt_w
 
 Want to learn more about Open WebUI's features? Check out our [Open WebUI documentation](https://docs.openwebui.com/features) for a comprehensive overview!
 
-
+---
 
 ### Installation
 
-### Method 1: Installing Open WebUI
+### Method 1: Installing from Repository
 
 Follow these steps to install and run Open WebUI:
 
@@ -91,6 +95,7 @@ Follow these steps to install and run Open WebUI:
 
 This format makes each step clear and easy to follow.
 
+---
 
 ### Method 2:  Installation with Docker (Recommended)
 
@@ -139,6 +144,8 @@ After installation, access Open WebUI at `http://localhost:3000`.
 ```bash
 docker run -d -p 3000:8080 -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:dev
 ```
+
+---
 
 ### Method 3:  Installation with pip (Beta)
 
