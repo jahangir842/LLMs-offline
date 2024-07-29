@@ -15,7 +15,7 @@ At its core, Ollama simplifies the process of downloading, installing, and inter
 
 # Installation methods:
 
-## Method 1: ollama-installation with Windows Installer
+## Installation Method 1: ollama-installation with Windows Installer
 
 https://www.youtube.com/watch?v=Lxb_cgLkOHU
 ### Summary:
@@ -36,4 +36,4 @@ It will start downloading the required model and start terminal to interact with
 
 
 
-## Method 2: ollama-installation on Linux:
+## Installation Method 2: ollama-installation on Linux:
