@@ -33,8 +33,6 @@ At its core, Ollama simplifies the process of downloading, installing, and inter
    - Ensure the Ollama service is running and accessible.
 
 ---
-
-This streamlined set of notes guides you through downloading, installing, and verifying Ollama on a Windows system.
    
 ## Installation Method 2: ollama-installation on Linux:
 
@@ -67,6 +65,8 @@ To install Ollama on Ubuntu, you can follow these steps:
 7. **Verify in Browser**
    
    Open http://localhost:11434
+
+---
 
 # After installation:
 
