@@ -1,4 +1,5 @@
-Pinokio is a project that simplifies running large language models (LLMs) on your local machine by providing a user-friendly interface and pre-configured settings. It leverages popular libraries and frameworks like Hugging Face Transformers and PyTorch to make it easier for users to interact with and run various LLMs without needing extensive knowledge of the underlying technologies.
+# Pinokio
+Pinokio is a browser that lets you install, run, and programmatically control ANY application, automatically. It is a project that simplifies running large language models (LLMs) on your local machine by providing a user-friendly interface and pre-configured settings. It leverages popular libraries and frameworks like Hugging Face Transformers and PyTorch to make it easier for users to interact with and run various LLMs without needing extensive knowledge of the underlying technologies.
 
 Pinokio is a self-contained platform that lets you install apps in an isolated manner.
 
