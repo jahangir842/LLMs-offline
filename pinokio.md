@@ -39,7 +39,7 @@ Run the following command to install this downloaded deb file.
 ```
 sudo dpkg -i Pinokio_2.1.14_amd64.deb
 ```
-### After installation:
+## After installation:
 
 After installation open it from apps shortcut. Select the home directory and theme save it.
 
