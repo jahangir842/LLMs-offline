@@ -41,6 +41,29 @@ sudo dpkg -i Pinokio_2.1.14_amd64.deb
 ```
 ## After installation:
 
-After installation open it from apps shortcut. Select the home directory and theme save it.
+### Installation Guide for Open-WebUI and Ollama
 
-Click on 'Discover', there are various scripts availabe, Install "Text Generation WebUI". It will take some time. Then it will promt to save as e.g. 'Open-WebUI.git'. If ollama is not installed already, it will redirect to ollama official website to get it, so install it first because ollama is required for Open-WebUI. After ollama installation you can continue installing OpenWebUI.
+1. **Open the Application:**
+   - After installation, launch the application from the apps shortcut.
+
+2. **Initial Setup:**
+   - Select the home directory.
+   - Choose and save your preferred theme.
+
+3. **Discover and Install Scripts:**
+   - Click on the 'Discover' section to explore various available scripts.
+   - Locate and select "Text Generation WebUI" for installation.
+
+4. **Installation Process:**
+   - The installation of "Text Generation WebUI" will begin. This may take some time.
+   - During the installation, you will be prompted to save the file. Use a name like 'Open-WebUI.git' for saving.
+
+5. **Install Ollama (if not already installed):**
+   - If Ollama is not installed on your system, you will be redirected to the Ollama official website.
+   - Download and install Ollama from the official website, as it is required for running Open-WebUI.
+
+6. **Continue Open-WebUI Installation:**
+   - After successfully installing Ollama, return to the application.
+   - Continue and complete the installation of Open-WebUI.
+
+By following these steps, you will have both Ollama and Open-WebUI installed and ready for use.
