@@ -39,3 +39,30 @@ It will start downloading the required model and start terminal to interact with
 
 
 ## Installation Method 2: ollama-installation on Linux:
+
+
+To install Ollama on Ubuntu, you can follow these steps:
+
+1. **Update the Package List:**
+   Start by updating your package list to ensure you have the latest information about available packages.
+   ```bash
+   sudo apt update
+   ```
+
+2. **Install Required Dependencies:**
+   Ollama may require certain dependencies to be installed. Make sure you have `curl` and `gnupg` installed.
+   ```bash
+   sudo apt install -y curl
+   ```
+
+5. **Install Ollama:**
+   Now, you can install Ollama using the package manager.
+   ```bash
+   curl -fsSL https://ollama.com/install.sh | sh
+   ```
+
+6. **Verify Installation:**
+   After installation, verify that Ollama is installed correctly by checking its version or running it.
+   ```bash
+   ollama --version
+   ```
