@@ -19,7 +19,7 @@ Pinokio is a self-contained platform that lets you install apps in an isolated m
 
 
 
-**1. Installation on Windows**: 
+## 1. Installation on Windows: 
 
 First, install Pinokio. You can usually do this via pip:
 
@@ -29,7 +29,7 @@ Unzip the downloaded file and you will see a .exe installer file.
 
 Run the installer file.
 
-**2. Installation on Linux**:
+## 2. Installation on Linux:
 
 For linux, you can download and install directly from the latest release on Github (Scroll down to the bottom of the page for all the binaries):
 https://github.com/pinokiocomputer/pinokio/releases/tag/2.1.14
