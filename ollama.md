@@ -33,10 +33,7 @@ Run the required llama model (e.g llama2 or llama3) with following command:
 `
 ollama run llama3
 `
-
 It will start downloading the required model and start terminal to interact with model.
-
-
 
 ## Installation Method 2: ollama-installation on Linux:
 
@@ -50,7 +47,7 @@ To install Ollama on Ubuntu, you can follow these steps:
    ```
 
 2. **Install Required Dependencies:**
-   Ollama may require certain dependencies to be installed. Make sure you have `curl` and `gnupg` installed.
+   Ollama may require certain dependencies to be installed. Make sure you have `curl` installed.
    ```bash
    sudo apt install -y curl
    ```
