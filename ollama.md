@@ -19,15 +19,22 @@ At its core, Ollama simplifies the process of downloading, installing, and inter
 
 ## Installation Method 1: ollama-installation on Windows
 
-https://www.youtube.com/watch?v=Lxb_cgLkOHU
+1. **Download Installer:**
+   - Visit the official Ollama website: [https://ollama.com/download](https://ollama.com/download).
+   - Download the installer for Windows.
 
-https://www.youtube.com/watch?v=Wjrdr0NU4Sk
+2. **Install Ollama:**
+   - Run the downloaded installer.
+   - Follow the on-screen instructions to complete the installation.
 
-Download and Install on windows with installer downloaded from official ollama website https://ollama.com/download
+3. **Verify Installation:**
+   - Open a web browser.
+   - Navigate to: [http://localhost:11434](http://localhost:11434).
+   - Ensure the Ollama service is running and accessible.
 
-**Verify in Browser**
+---
 
-Open http://localhost:11434
+This streamlined set of notes guides you through downloading, installing, and verifying Ollama on a Windows system.
    
 ## Installation Method 2: ollama-installation on Linux:
 
