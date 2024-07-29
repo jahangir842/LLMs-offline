@@ -90,4 +90,4 @@ Following GUI options are available
  
  b. Text Generation WebUI
  
- 3. Pinokio (GUI Installer)
+ c. Pinokio (GUI Installer)
