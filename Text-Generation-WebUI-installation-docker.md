@@ -4,10 +4,6 @@ A Gradio web UI for Large Language Models.
 
 Its goal is to become the [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) of text generation.
 
-|![Image1](https://github.com/oobabooga/screenshots/raw/main/print_instruct.png) | ![Image2](https://github.com/oobabooga/screenshots/raw/main/print_chat.png) |
-|:---:|:---:|
-|![Image1](https://github.com/oobabooga/screenshots/raw/main/print_default.png) | ![Image2](https://github.com/oobabooga/screenshots/raw/main/print_parameters.png) |
-
 #### Overview
 
 Oobabooga is a powerful web-based user interface based on Gradio (https://www.gradio.app/) designed for running large language models (LLMs) such as GPT-3 and similar models. It provides an interactive and user-friendly platform for accessing and utilizing these models, either locally or through various APIs.
