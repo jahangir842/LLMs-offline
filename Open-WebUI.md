@@ -91,8 +91,6 @@ Follow these steps to install and run Open WebUI:
 
    Open your web browser and go to [http://localhost:5000](http://localhost:5000) to interact with the Open WebUI interface.
 
----
-
 This format makes each step clear and easy to follow.
 
 ---
