@@ -27,3 +27,10 @@ Run the installer file.
 For linux, you can download and install directly from the latest release on Github (Scroll down to the bottom of the page for all the binaries):
 https://github.com/pinokiocomputer/pinokio/releases/tag/2.1.14
 
+Run the following command to install this downloaded deb file.
+
+```
+sudo dpkg -i Pinokio_2.1.14_amd64.deb
+```
+
+
