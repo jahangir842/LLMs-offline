@@ -52,10 +52,10 @@ sudo dpkg -i Pinokio_2.1.14_amd64.deb
 
 3. **Discover and Install Scripts:**
    - Click on the 'Discover' section to explore various available scripts.
-   - Locate and select "Text Generation WebUI" for installation.
+   - Locate and select "Open-WebUI" for installation.
 
 4. **Installation Process:**
-   - The installation of "Text Generation WebUI" will begin. This may take some time.
+   - The installation of "Open-WebUI" will begin. This may take some time.
    - During the installation, you will be prompted to save the file. Use a name like 'Open-WebUI.git' for saving.
 
 5. **Install Ollama (if not already installed):**
