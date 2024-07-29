@@ -171,5 +171,10 @@ docker run --rm --volume /var/run/docker.sock:/var/run/docker.sock containrrr/wa
 ```
 Replace `open-webui` with your container name if it is different.
 
+
+### Method 4:  Installation with Pinokio
+
+See the `pinikio.md` file.
+
 ### Conclusion
 Continue with the full getting started guide to explore all features and settings of Open WebUI. Enjoy! 😄
