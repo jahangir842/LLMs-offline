@@ -10,8 +10,17 @@ Pinokio is a project that simplifies running large language models (LLMs) on you
 
 4. **Support for Multiple Models**: It supports various models from the Hugging Face Transformers library and can be extended to support additional models.
 
-### How to Use Pinokio to Run LLMs
 
-1. **Installation**: First, install Pinokio. You can usually do this via pip:
+
+**1. Installation on Windows**: 
+
+First, install Pinokio. You can usually do this via pip:
 Go to the official website and download it. https://pinokio.computer/
-Install it.
+Unzip the downloaded file and you will see a .exe installer file.
+Run the installer file and you will be presented with the following Windows warning:
+
+**2. Installation on Linux**:
+
+For linux, you can download and install directly from the latest release on Github (Scroll down to the bottom of the page for all the binaries):
+https://github.com/pinokiocomputer/pinokio/releases/tag/2.1.14
+
