@@ -29,18 +29,6 @@ Download and Install on windows with installer downloaded from official ollama w
 
 Open http://localhost:11434
    
-After installation, you can interact with llm with two methods:
-1. Command line
-2. Web API On http://localhost:11434
-
-## Run with command line:
-Run the required llama model (e.g llama2 or llama3) with following command:
-
-`
-ollama run llama3
-`
-It will start downloading the required model and start terminal to interact with model.
-
 ## Installation Method 2: ollama-installation on Linux:
 
 
@@ -72,3 +60,24 @@ To install Ollama on Ubuntu, you can follow these steps:
 7. **Verify in Browser**
    
    Open http://localhost:11434
+
+# After installation:
+
+you can interact with llm with two methods:
+1. Command line
+2. Web API On http://localhost:11434
+
+## 1. Run with command line:
+Run the required llama model (e.g llama2 or llama3) with following command:
+
+`
+ollama run llama3
+`
+It will start downloading the required model and start terminal to interact with model.
+
+## 2. Run with GUI:
+
+Following GUI options are available
+ a. OpenWebUI
+ b. Text Generation WebUI
+ 3. Pinokio (GUI Installer)
