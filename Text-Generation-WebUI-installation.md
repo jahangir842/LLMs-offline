@@ -46,6 +46,59 @@ If you ever need to install something manually in the `installer_files` environm
 * For additional instructions about AMD and WSL setup, consult [the documentation](https://github.com/oobabooga/text-generation-webui/wiki).
 * For automated installation, you can use the `GPU_CHOICE`, `USE_CUDA118`, `LAUNCH_AFTER_INSTALL`, and `INSTALL_EXTENSIONS` environment variables. For instance: `GPU_CHOICE=A USE_CUDA118=FALSE LAUNCH_AFTER_INSTALL=FALSE INSTALL_EXTENSIONS=TRUE ./start_linux.sh`.
 
+### Method 2: Quick Start with Docker (Recommended)
+
+**Single-User Mode**:
+To disable login for a single-user setup, set `WEBUI_AUTH` to `False`. This will bypass the login page. Note that you cannot switch between single-user mode and multi-account mode after this change.
+
+**Data Storage in Docker**:
+When using Docker to install Oobabooga, include the `-v oobabooga:/app/backend/data` in your Docker command to ensure your database is properly mounted and prevent any loss of data.
+
+**Default Configuration**
+
+- **If Ollama is on your computer**:
+  ```bash
+  docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v oobabooga:/app/backend/data --name oobabooga --restart always ghcr.io/oobabooga/oobabooga:main
+  ```
+
+- **If Ollama is on a different server**:
+  ```bash
+  docker run -d -p 3000:8080 -e OLLAMA_BASE_URL=https://example.com -v oobabooga:/app/backend/data --name oobabooga --restart always ghcr.io/oobabooga/oobabooga:main
+  ```
+
+**With Nvidia GPU Support**:
+```bash
+docker run -d -p 3000:8080 --gpus all --add-host=host.docker.internal:host-gateway -v oobabooga:/app/backend/data --name oobabooga --restart always ghcr.io/oobabooga/oobabooga:cuda
+```
+
+**OpenAI API Usage Only**:
+```bash
+docker run -d -p 3000:8080 -e OPENAI_API_KEY=your_secret_key -v oobabooga:/app/backend/data --name oobabooga --restart always ghcr.io/oobabooga/oobabooga:main
+```
+
+#### Installing Oobabooga with Bundled Ollama Support
+
+**With GPU Support**:
+```bash
+docker run -d -p 3000:8080 --gpus=all -v ollama:/root/.ollama -v oobabooga:/app/backend/data --name oobabooga --restart always ghcr.io/oobabooga/oobabooga:ollama
+```
+
+**For CPU Only**:
+```bash
+docker run -d -p 3000:8080 -v ollama:/root/.ollama -v oobabooga:/app/backend/data --name oobabooga --restart always ghcr.io/oobabooga/oobabooga:ollama
+```
+
+After installation, access Oobabooga at `http://localhost:3000`.
+
+#### Using the Dev Branch
+
+**Note**: The `:dev` branch contains the latest unstable features and changes. Use it at your own risk as it may have bugs or incomplete features.
+```bash
+docker run -d -p 3000:8080 -v oobabooga:/app/backend/data --name oobabooga --restart always ghcr.io/oobabooga/oobabooga:dev
+```
+
+
+
 ## Downloading models
 
 Models should be placed in the folder `text-generation-webui/models`. They are usually downloaded from [Hugging Face](https://huggingface.co/models?pipeline_tag=text-generation&sort=downloads).
