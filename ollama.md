@@ -17,17 +17,19 @@ At its core, Ollama simplifies the process of downloading, installing, and inter
 
 # Installation methods:
 
-## Installation Method 1: ollama-installation with Windows Installer
+## Installation Method 1: ollama-installation on Windows
 
 https://www.youtube.com/watch?v=Lxb_cgLkOHU
-### Summary:
+
+https://www.youtube.com/watch?v=Wjrdr0NU4Sk
+
 Download and Install on windows with installer downloaded from official ollama website https://ollama.com/download
 
 After installation, you can interact with llm with two methods:
 1. Command line
 2. Web API On http://localhost:11434
 
-## 1. Run with command line:
+## Run with command line:
 Run the required llama model (e.g llama2 or llama3) with following command:
 
 `
