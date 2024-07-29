@@ -5,13 +5,13 @@ Ollama is an open-source project that serves as a powerful and user-friendly pla
 At its core, Ollama simplifies the process of downloading, installing, and interacting with a wide range of LLMs, empowering users to explore their capabilities without the need for extensive technical expertise or reliance on cloud-based platforms. 
 
 ## Usefull links:
-** Official Site** https://ollama.com/
+**Official Site** https://ollama.com/
 
-** Github Repo** https://github.com/ollama/ollama
+**Github Repo** https://github.com/ollama/ollama
 
-** ollama supported models ** https://ollama.com/library
+**ollama supported models** https://ollama.com/library
 
-** Article ** https://medium.com/@1kg/ollama-what-is-ollama-9f73f3eafa8b
+**Article** https://medium.com/@1kg/ollama-what-is-ollama-9f73f3eafa8b
 
 # Installation methods:
 
