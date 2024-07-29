@@ -15,9 +15,12 @@ Pinokio is a project that simplifies running large language models (LLMs) on you
 **1. Installation on Windows**: 
 
 First, install Pinokio. You can usually do this via pip:
+
 Go to the official website and download it. https://pinokio.computer/
+
 Unzip the downloaded file and you will see a .exe installer file.
-Run the installer file and you will be presented with the following Windows warning:
+
+Run the installer file.
 
 **2. Installation on Linux**:
 
