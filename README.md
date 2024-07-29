@@ -12,3 +12,4 @@ GGUF and GGML are file formats used for storing models for inference, especially
 
 Developed by contributors from the AI community, including Georgi Gerganov, the creator of GGML, GGUF’s creation aligns with the needs of large-scale AI models, though it appears to be an independent effort. Its use in contexts involving Facebook’s (Meta’s) LLaMA (Large Language Model Meta AI) models underscores its importance in the AI landscape.
 
+**GGUP on Hugging Face:** https://huggingface.co/docs/hub/en/gguf
