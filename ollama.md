@@ -85,6 +85,9 @@ It will start downloading the required model and start terminal to interact with
 ## 2. Run with GUI:
 
 Following GUI options are available
+
  a. OpenWebUI
+ 
  b. Text Generation WebUI
+ 
  3. Pinokio (GUI Installer)
