@@ -19,7 +19,9 @@ At its core, Ollama simplifies the process of downloading, installing, and inter
 
 https://www.youtube.com/watch?v=Lxb_cgLkOHU
 ### Summary:
-Download and Install on windows with installer downloaded from official ollama website and interact with:
+Download and Install on windows with installer downloaded from official ollama website https://ollama.com/download
+
+After installation, you can interact with llm with two methods:
 1. Command line
 2. Web API On http://localhost:11434
 
