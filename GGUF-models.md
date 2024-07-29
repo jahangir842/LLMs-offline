@@ -1,5 +1,3 @@
-## LLMs Offline
-
 ### What is GGUF and GGML?
 
 **Note:** GGML officially phased out, new format called GGUF
