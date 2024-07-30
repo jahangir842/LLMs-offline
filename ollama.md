@@ -66,6 +66,44 @@ To install Ollama on Ubuntu, you can follow these steps:
    
    Open http://localhost:11434
 
+1. **Check Help:**
+   To see the available commands and options, you can run:
+   ```bash
+   ollama --help
+   ```
+
+2. **Basic Commands:**
+   Here are some common commands you might use to interact with Ollama. Replace `<command>` with the specific command you want to execute.
+
+   ```bash
+   ollama <command> [options]
+   ```
+
+3. **Example Commands:**
+   - **Starting Ollama:**
+     ```bash
+     ollama start
+     ```
+   - **Stopping Ollama:**
+     ```bash
+     ollama stop
+     ```
+   - **Checking Status:**
+     ```bash
+     ollama status
+     ```
+
+4. **Configuration:**
+   You might need to configure Ollama to suit your needs. Configuration files are typically located in `~/.ollama` or `~/.config/ollama`. You can edit these files to change settings.
+
+5. **Using Ollama in a Script:**
+   You can integrate Ollama commands into shell scripts to automate tasks. Here’s an example of a simple script to start Ollama:
+
+   ```bash
+   #!/bin/bash
+   ollama start
+   ```
+
 ---
 
 # After installation:
