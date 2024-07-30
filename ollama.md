@@ -207,8 +207,9 @@ An Ollama **Modelfile** is a configuration file that defines and manages models 
 
 Access the model file to understand its structure and parameters. Use ollama help show to show all the commands.
 
+```
 ollama show llama3 --modelfile
-
+```
 
 ---
 
