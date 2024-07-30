@@ -201,6 +201,8 @@ To install Ollama on Ubuntu, you can follow these steps:
    
 ## Customize the Model: 
 
+https://medium.com/@sumudithalanz/unlocking-the-power-of-large-language-models-a-guide-to-customization-with-ollama-6c0da1e756d9
+
 Access the model file to understand its structure and parameters. Use ollama help show to show all the commands.
 
 ollama show phi --modelfile
