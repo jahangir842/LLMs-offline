@@ -21,6 +21,8 @@ At its core, Ollama simplifies the process of downloading, installing, and inter
 
 **Article** https://medium.com/@1kg/ollama-what-is-ollama-9f73f3eafa8b
 
+**Article** https://medium.com/@sumudithalanz/unlocking-the-power-of-large-language-models-a-guide-to-customization-with-ollama-6c0da1e756d9 
+
 # Installation methods:
 
 ## Installation Method 1: ollama-installation on Windows
