@@ -52,17 +52,18 @@ To install Ollama on Ubuntu, you can follow these steps:
    ```
 
 5. **Install Ollama:**
-   Now, you can install Ollama using the package manager.
+   Now, you can install Ollama with following command:
+   
    ```bash
    curl -fsSL https://ollama.com/install.sh | sh
    ```
 
-6. **Verify Installation:**
+7. **Verify Installation:**
    After installation, verify that Ollama is installed correctly by checking its version or running it.
    ```bash
    ollama --version
    ```
-7. **Verify in Browser**
+8. **Verify in Browser**
    
    Open http://localhost:11434
 
