@@ -2,7 +2,7 @@
 1. Installation of ollama
 2. Uninstallation of ollama
 3. Download and run a model
-4. Create a model from Modelfile
+4. Create a model from Modelfile (using GGUF model from hugging face)
 5. Delete a model
 6. Customize the model
 
