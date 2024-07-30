@@ -1,3 +1,8 @@
+### This page includes:
+1. Installation
+2. Uninstallation
+3. Customize the Model:
+
 # What is Ollama
 
 Ollama is an open-source project that serves as a powerful and user-friendly platform for running LLMs on your local machine. It acts as a bridge between the complexities of LLM technology and the desire for an accessible and customizable AI experience.
