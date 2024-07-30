@@ -104,6 +104,30 @@ To install Ollama on Ubuntu, you can follow these steps:
    ollama start
    ```
 
+### Uninstall Ollama:
+You can follow these general steps. Depending on how the installation script works, you might need to remove the binary and any associated files manually. Here are the typical steps to uninstall a software installed via a script:
+
+1. **Find the Installation Directory:**
+   Determine where Ollama was installed. Typically, it might be installed in a directory like `/usr/local/bin` or somewhere in your home directory.
+
+2. **Remove the Binary:**
+   Remove the Ollama binary from your system. If it was installed in `/usr/local/bin`, you can use:
+   ```bash
+   sudo rm /usr/local/bin/ollama
+   ```
+
+3. **Remove Configuration Files:**
+   If there are any configuration files or directories, you might want to remove them as well. These could be in locations like `~/.config/ollama`, `~/.ollama`, or similar directories. For example:
+   ```bash
+   rm -rf ~/.config/ollama
+   rm -rf ~/.ollama
+   ```
+
+4. **Remove Any Additional Files:**
+   If there are other directories or files created by the installation script, remove them as well. You can often find these by checking the script or the documentation.
+
+If the installation script provided an uninstallation command, use that instead. If you're unsure about what files were installed, you can check the installation script (`https://ollama.com/install.sh`) for details on what files and directories it creates.
+
 ---
 
 # After installation:
