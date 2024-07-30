@@ -96,6 +96,9 @@ To install Ollama on Ubuntu, you can follow these steps:
      ollama run [model_name]
      ```
 
+**Note:** Downloaded models are saved in --> /usr/share/ollama/.ollama/models/blobs
+
+
 **pull**
    - **Description**: Pull a model from a registry.
    - **Usage**:
