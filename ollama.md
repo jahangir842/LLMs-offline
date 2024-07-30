@@ -2,7 +2,9 @@
 1. Installation of ollama
 2. Uninstallation of ollama
 3. Download and run a model
-4. Customize the model
+4. Create a model from Modelfile
+5. Delete a model
+6. Customize the model
 
 # What is Ollama
 
