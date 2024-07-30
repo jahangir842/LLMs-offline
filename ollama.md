@@ -1,7 +1,8 @@
 ### This page includes:
-1. Installation
-2. Uninstallation
-3. Customize the Model:
+1. Installation of ollama
+2. Uninstallation of ollama
+3. Download and run a model
+4. Customize the model
 
 # What is Ollama
 
