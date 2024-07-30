@@ -80,20 +80,101 @@ To install Ollama on Ubuntu, you can follow these steps:
    ollama <command> [options]
    ```
 
-3. **Example Commands:**
-   - **Starting Ollama:**
-     ```bash
-     ollama start
-     ```
-   - **Stopping Ollama:**
-     ```bash
-     ollama stop
-     ```
-   - **Checking Status:**
-     ```bash
-     ollama status
+#### **Available Commands**
+
+**serve**
+   - **Description**: Start the Ollama service.
+   - **Usage**:
+     ```sh
+     ollama serve
      ```
 
+**create**
+   - **Description**: Create a model from a Modelfile.
+   - **Usage**:
+     ```sh
+     ollama create [modelfile]
+     ```
+
+**show**
+   - **Description**: Show information for a model.
+   - **Usage**:
+     ```sh
+     ollama show [model_name]
+     ```
+
+**run**
+   - **Description**: Run a model.
+   - **Usage**:
+     ```sh
+     ollama run [model_name]
+     ```
+
+**pull**
+   - **Description**: Pull a model from a registry.
+   - **Usage**:
+     ```sh
+     ollama pull [model_name]
+     ```
+
+**push**
+   - **Description**: Push a model to a registry.
+   - **Usage**:
+     ```sh
+     ollama push [model_name]
+     ```
+
+**list**
+   - **Description**: List available models.
+   - **Usage**:
+     ```sh
+     ollama list
+     ```
+
+**ps**
+   - **Description**: List running models.
+   - **Usage**:
+     ```sh
+     ollama ps
+     ```
+
+**cp**
+   - **Description**: Copy a model.
+   - **Usage**:
+     ```sh
+     ollama cp [source_model] [destination_model]
+     ```
+
+**rm**
+    - **Description**: Remove a model.
+    - **Usage**:
+      ```sh
+      ollama rm [model_name]
+      ```
+
+**help**
+    - **Description**: Display help information for any command.
+    - **Usage**:
+      ```sh
+      ollama help [command]
+      ```
+
+#### **Flags**
+
+- `-h`, `--help`
+  - **Description**: Display help information.
+  - **Usage**:
+    ```sh
+    ollama --help
+    ```
+
+- `-v`, `--version`
+  - **Description**: Show version information.
+  - **Usage**:
+    ```sh
+    ollama --version
+    ```
+   
 4. **Configuration:**
    You might need to configure Ollama to suit your needs. Configuration files are typically located in `~/.ollama` or `~/.config/ollama`. You can edit these files to change settings.
 
