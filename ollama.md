@@ -188,6 +188,30 @@ To install Ollama on Ubuntu, you can follow these steps:
    ollama start
    ```
 
+
+---
+   
+## Customize the Model: 
+
+Access the model file to understand its structure and parameters. Use ollama help show to show all the commands.
+
+ollama show phi --modelfile
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
 ### Uninstall Ollama:
 You can follow these general steps. Depending on how the installation script works, you might need to remove the binary and any associated files manually. Here are the typical steps to uninstall a software installed via a script:
 
