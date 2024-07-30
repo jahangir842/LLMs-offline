@@ -89,20 +89,6 @@ To install Ollama on Ubuntu, you can follow these steps:
      ollama serve
      ```
 
-**create**
-   - **Description**: Create a model from a Modelfile.
-   - **Usage**:
-     ```sh
-     ollama create [modelfile]
-     ```
-
-**show**
-   - **Description**: Show information for a model.
-   - **Usage**:
-     ```sh
-     ollama show [model_name]
-     ```
-
 **run**
    - **Description**: Run a model.
    - **Usage**:
@@ -145,13 +131,26 @@ To install Ollama on Ubuntu, you can follow these steps:
      ollama cp [source_model] [destination_model]
      ```
 
+**create**
+   - **Description**: Create a model from a Modelfile.
+   - **Usage**:
+     ```sh
+     ollama create [modelfile]
+     ```
+
+**show**
+   - **Description**: Show information for a model.
+   - **Usage**:
+     ```sh
+     ollama show [model_name]
+     ```
+
 **rm**
     - **Description**: Remove a model.
     - **Usage**:
       ```sh
       ollama rm [model_name]
       ```
-
 **help**
     - **Description**: Display help information for any command.
     - **Usage**:
