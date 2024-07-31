@@ -165,7 +165,7 @@ Here are some common commands you might use to interact with Ollama. Replace `<c
    - **Description**: Create a model from a Modelfile.
    - **Usage**:
      ```sh
-     ollama create [modelfile]
+     ollama create [model_name]
      ```
 
 **rm**
