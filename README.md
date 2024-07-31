@@ -5,6 +5,8 @@
 
 https://huggingface.co/
 
+**lmstudio-community on Huggingface:** https://huggingface.co/lmstudio-community https://huggingface.co/lmstudio-community
+**TheBloke on Huggingface:** https://huggingface.co/TheBloke
 
 ### What is GGUF and GGML?
 
