@@ -163,6 +163,13 @@ Here are some common commands you might use to interact with Ollama. Replace `<c
 
 **create**
    - **Description**: Create a model from a Modelfile.
+     first download a model from hugging face in `gguf` formate and create a file name `ModelFile' in the same directory where model is placed and write the following line in ModelFile:
+
+     ```sh
+     FROM ./mistral-7b-instruct-v0.2.Q5_0.gguf
+     ```
+     change the name of your model.
+     
    - **Usage**:
      ```sh
      ollama create [model_name]
