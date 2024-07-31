@@ -1,6 +1,6 @@
 ## LLMs Offline
 
-
+---
 ### Useful Sites.
 
 **Huggingface.co** https://huggingface.co/
@@ -11,7 +11,8 @@
 
 **Uncensor LLMs** https://jarvislabs.ai/blogs/llm_uncensored
 
-
+---
+ 
 ### What is GGUF and GGML?
 
 **Note:** GGML officially phased out, new format called GGUF
@@ -29,3 +30,4 @@ Hugging Face Hub supports all file formats, but has built-in features for GGUF f
 
 **Download GGUP type model from Hugging Face:** Search the required model name in hugging face, mentioning the word "GGUP" and download it with required quantanization.
 
+---
