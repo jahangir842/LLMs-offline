@@ -269,3 +269,8 @@ Following GUI options are available
  b. Text Generation WebUI
  
  c. Pinokio (GUI Installer)
+
+---
+
+# Adding Template and System Prompt to a Model:
+
