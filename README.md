@@ -31,3 +31,26 @@ Hugging Face Hub supports all file formats, but has built-in features for GGUF f
 **Download GGUP type model from Hugging Face:** Search the required model name in hugging face, mentioning the word "GGUP" and download it with required quantanization.
 
 ---
+
+🚀 **My Recent Project about Ollama: A Deep Dive into Model Management and Offline Testing** 🚀
+
+
+I’m excited to share my latest project on working with Ollama, an advanced tool for managing machine learning models. This journey took me through the installation of Ollama on both Linux and Windows systems in an isolated, offline network. From downloading models like ollama3.1, Gemma and mistral in GGUF format from Hugging Face, embedding them into Ollama, to testing them thoroughly using command-line tools as well as through Open WebUI — every step was a meticulous process.
+
+
+Here’s a glimpse of what the article covers:
+
+- **Installation Process**: Setting up Ollama in an offline environment on Linux and Windows.
+
+- **Model Handling**: Downloading and embedding models, and performing tests.
+
+- **Open WebUI Setup**: Integrating Open WebUI with Ollama in Docker format and running comprehensive tests.
+
+
+If you're interested in learning more about working with machine learning models in offline scenarios, check out the detailed article below. Dive into the steps and commands that made this project a success!
+
+
+🔗 [Read the full article here] [[Insert Link](https://www.linkedin.com/pulse/how-deploy-ollama-offline-environment-jahangir--utb0f/)]
+
+
+#MachineLearning #DataScience #Ollama #ModelManagement #OfflineTesting #Docker #AI #TechProjects #Linux #Windows #HuggingFace #GGUF #WebUI #ModelIntegration
