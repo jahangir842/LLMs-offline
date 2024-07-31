@@ -3,10 +3,10 @@
 
 ### Useful Sites.
 
-https://huggingface.co/
-
+**Huggingface.co** https://huggingface.co/
 **lmstudio-community on Huggingface:** https://huggingface.co/lmstudio-community https://huggingface.co/lmstudio-community
 **TheBloke on Huggingface:** https://huggingface.co/TheBloke
+**Uncensor LLMs** https://jarvislabs.ai/blogs/llm_uncensored
 
 ### What is GGUF and GGML?
 
