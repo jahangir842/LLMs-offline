@@ -202,24 +202,8 @@ Here are some common commands you might use to interact with Ollama. Replace `<c
    #!/bin/bash
    ollama start
    ```
-
-
 ---
    
-## Customize the Model: 
-
-https://medium.com/@sumudithalanz/unlocking-the-power-of-large-language-models-a-guide-to-customization-with-ollama-6c0da1e756d9
-
-An Ollama **Modelfile** is a configuration file that defines and manages models on the Ollama platform. Create new models or modify and adjust existing models through model files to cope with some special application scenarios. Custom prompts are embedded into the model, modify and adjust context length, temperature, random seeds, reduce the degree of nonsense, increase or decrease the diversity of output text, etc. **(Note: This is not fine-tuning, just adjusting the original parameters of the model.)**
-
-Access the model file to understand its structure and parameters. Use ollama help show to show all the commands.
-
-```
-ollama show llama3 --modelfile
-```
-
----
-
 ### Uninstall Ollama:
 You can follow these general steps. Depending on how the installation script works, you might need to remove the binary and any associated files manually. Here are the typical steps to uninstall a software installed via a script:
 
@@ -271,6 +255,22 @@ Following GUI options are available
  c. Pinokio (GUI Installer)
 
 ---
+   
+## Customize the Model: 
+
+https://medium.com/@sumudithalanz/unlocking-the-power-of-large-language-models-a-guide-to-customization-with-ollama-6c0da1e756d9
+
+An Ollama **Modelfile** is a configuration file that defines and manages models on the Ollama platform. Create new models or modify and adjust existing models through model files to cope with some special application scenarios. Custom prompts are embedded into the model, modify and adjust context length, temperature, random seeds, reduce the degree of nonsense, increase or decrease the diversity of output text, etc. **(Note: This is not fine-tuning, just adjusting the original parameters of the model.)**
+
+Access the model file to understand its structure and parameters. Use ollama help show to show all the commands.
+
+```
+ollama show llama3 --modelfile
+```
+
+---
+
+
 
 # Adding Template and System Prompt to a Model:
 
