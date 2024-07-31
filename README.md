@@ -9,7 +9,7 @@
 
 **TheBloke on Huggingface:** https://huggingface.co/TheBloke
 
-**Uncensor LLMs** https://jarvislabs.ai/blogs/llm_uncensored
+**Uncensored LLMs** https://jarvislabs.ai/blogs/llm_uncensored
 
 ---
  
