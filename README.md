@@ -50,7 +50,7 @@ Here’s a glimpse of what the article covers:
 If you're interested in learning more about working with machine learning models in offline scenarios, check out the detailed article below. Dive into the steps and commands that made this project a success!
 
 
-🔗 [Read the full article here] [[Insert Link](https://www.linkedin.com/pulse/how-deploy-ollama-offline-environment-jahangir--utb0f/)]
+🔗 [Read the full article here] [[ How to deploy Ollama in an offline environment ](https://www.linkedin.com/pulse/how-deploy-ollama-offline-environment-jahangir--utb0f/)]
 
 
 #MachineLearning #DataScience #Ollama #ModelManagement #OfflineTesting #Docker #AI #TechProjects #Linux #Windows #HuggingFace #GGUF #WebUI #ModelIntegration
