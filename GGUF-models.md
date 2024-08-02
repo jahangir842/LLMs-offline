@@ -15,3 +15,17 @@ Hugging Face Hub supports all file formats, but has built-in features for GGUF f
 
 **Download GGUP type model from Hugging Face:** Search the required model name in hugging face, mentioning the word "GGUP" and download it with required quantanization.
 https://huggingface.co/models
+
+
+Here is an incomplete list of clients and libraries known to support GGUF:
+
+- **llama.cpp**: The source project for GGUF, offering a CLI and a server option.
+- **text-generation-webui**: The most widely used web UI with many features and powerful extensions, supporting GPU acceleration.
+- **KoboldCpp**: A fully featured web UI with GPU acceleration across all platforms and architectures, especially good for storytelling.
+- **GPT4All**: A free and open-source local running GUI supporting Windows, Linux, and macOS with full GPU acceleration.
+- **LM Studio**: An easy-to-use and powerful local GUI for Windows and macOS (Silicon), with GPU acceleration. Linux support is available in beta as of 27/11/2023.
+- **LoLLMS Web UI**: A great web UI with many interesting and unique features, including a full model library for easy model selection.
+- **Faraday.dev**: An attractive and easy-to-use character-based chat GUI for Windows and macOS (both Silicon and Intel), with GPU acceleration.
+- **llama-cpp-python**: A Python library with GPU acceleration, LangChain support, and an OpenAI-compatible API server.
+- **candle**: A Rust ML framework focused on performance and ease of use, including GPU support.
+- **ctransformers**: A Python library with GPU acceleration, LangChain support, and an OpenAI-compatible AI server. Note, as of November 27, 2023, ctransformers has not been updated recently and does not support many recent models.
