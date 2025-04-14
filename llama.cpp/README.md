@@ -6,6 +6,8 @@ This guide assumes you've downloaded a prebuilt archive like `llama-b5129-bin-ub
 
 ## 📥 1. Download and Extract
 
+Download: https://github.com/ggml-org/llama.cpp/releases
+
 ```bash
 cd ~/Downloads
 unzip llama-b5129-bin-ubuntu-x64.zip
